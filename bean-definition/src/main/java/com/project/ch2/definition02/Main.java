@@ -1,6 +1,6 @@
-package com.project.ch2.definition_02;
+package com.project.ch2.definition02;
 
-import com.project.ch2.definition_02.config.ProjectConfig;
+import com.project.ch2.definition02.config.ProjectConfig;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
 public class Main {

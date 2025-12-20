@@ -1,6 +1,6 @@
-package com.project.ch2.definition_01.config;
+package com.project.ch2.definition01.config;
 
-import com.project.ch2.definition_01.Parrot;
+import com.project.ch2.definition01.Parrot;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Primary;

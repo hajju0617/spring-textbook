@@ -1,4 +1,4 @@
-package com.project.ch2.definition_03;
+package com.project.ch2.definition02;
 
 import org.springframework.stereotype.Component;
 

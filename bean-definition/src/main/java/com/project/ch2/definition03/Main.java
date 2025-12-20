@@ -1,7 +1,6 @@
-package com.project.ch2.definition_03;
+package com.project.ch2.definition03;
 
-import com.project.ch2.definition_02.Parrot2;
-import com.project.ch2.definition_03.config.ProjectConfig;
+import com.project.ch2.definition03.config.ProjectConfig;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
 import java.util.function.Supplier;

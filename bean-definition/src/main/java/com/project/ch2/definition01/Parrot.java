@@ -1,4 +1,4 @@
-package com.project.ch2.definition_01;
+package com.project.ch2.definition01;
 
 public class Parrot {
     private String name;
