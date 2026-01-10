@@ -1,11 +1,9 @@
-package com.project.ch4.abstractions03.services;
+package com.project.ch4.abstractions02.ex03.services;
 
-import com.project.ch4.abstractions03.model.Comment;
-import com.project.ch4.abstractions03.proxies.CommentNotificationProxy;
-import com.project.ch4.abstractions03.repositories.CommentRepository;
-import org.springframework.stereotype.Component;
+import com.project.ch4.abstractions02.ex03.model.Comment;
+import com.project.ch4.abstractions02.ex03.proxies.CommentNotificationProxy;
+import com.project.ch4.abstractions02.ex03.repositories.CommentRepository;
 
-@Component
 public class CommentService {
     private final CommentRepository commentRepository;
     private final CommentNotificationProxy commentNotificationProxy;
