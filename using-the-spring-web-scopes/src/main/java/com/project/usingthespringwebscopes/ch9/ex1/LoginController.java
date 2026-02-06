@@ -12,12 +12,12 @@ public class LoginController {
     public LoginController(LoginProcessor loginProcessor) {
         this.loginProcessor = loginProcessor;
     }
-    @GetMapping("/")
+    @GetMapping("/ex1")
     public String loginGet() {
-        return "login.html";
+        return "login1.html";
     }
 
-    @PostMapping("/")
+    @PostMapping("/ex1")
     public String loginPost(@RequestParam String username, @RequestParam String password, Model model) {
         loginProcessor.setUsername(username);
         loginProcessor.setPassword(password);
@@ -27,6 +27,6 @@ public class LoginController {
         } else {
             model.addAttribute("message", "Login failed.");
         }
-        return "login.html";
+        return "login1.html";
     }
 }
