@@ -17,7 +17,7 @@ public class PaymentsController1 {
     }
     @PostMapping("/payment1")
     public Payment1 createPayment(@RequestBody Payment1 payment1) {
-        System.out.println("@@@@@@@@@@@@@@@@@@payment1 = " + payment1);
+        System.out.println("9090 호출.");
         String requestId = UUID.randomUUID().toString();
         return paymentsProxy1.createPayment(requestId, payment1);
     }

@@ -21,6 +21,7 @@ public class PaymentsController {
                          " ;Payment Amount: " + payment.getAmount());
 
         payment.setId(UUID.randomUUID().toString());
+        System.out.println("8080 호출");
 
         return ResponseEntity
                 .status(HttpStatus.OK)
