@@ -1,7 +1,7 @@
-package com.project.usingdatasourcesinspringapps.ch12.controller;
+package com.project.usingdatasourcesinspringapps.ch12.ex1.controller;
 
-import com.project.usingdatasourcesinspringapps.ch12.model.Purchase;
-import com.project.usingdatasourcesinspringapps.ch12.repository.PurchaseRepository;
+import com.project.usingdatasourcesinspringapps.ch12.ex1.repository.PurchaseRepository;
+import com.project.usingdatasourcesinspringapps.ch12.ex1.model.Purchase;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;

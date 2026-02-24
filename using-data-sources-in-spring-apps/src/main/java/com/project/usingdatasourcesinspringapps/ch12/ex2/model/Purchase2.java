@@ -1,9 +1,9 @@
-package com.project.usingdatasourcesinspringapps.ch12.ex1.model;
+package com.project.usingdatasourcesinspringapps.ch12.ex2.model;
 
 import java.math.BigDecimal;
 import java.util.Objects;
 
-public class Purchase {
+public class Purchase2 {
 
     private int id;
     private String product;
@@ -37,8 +37,8 @@ public class Purchase {
     public boolean equals(Object object) {
         if (this == object) return true;
         if (object == null || getClass() != object.getClass()) return false;
-        Purchase purchase = (Purchase) object;
-        return id == purchase.id && Objects.equals(product, purchase.product) && Objects.equals(price, purchase.price);
+        Purchase2 purchase2 = (Purchase2) object;
+        return id == purchase2.id && Objects.equals(product, purchase2.product) && Objects.equals(price, purchase2.price);
     }
 
     @Override
